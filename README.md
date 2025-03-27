@@ -19,6 +19,10 @@ A curated list of 100% free courses, books, and certifications to learn AI, ML, 
 
 
 ## MLOps
+- [MLFlow by CodeBasics](https://www.youtube.com/watch?v=6ngxBkx05Fs)
+- [MLFlow Documentation](https://mlflow.org/docs/latest/getting-started/)
+- [Fast API by CodeBasics](https://www.youtube.com/watch?v=Wr1JjhTt1Xg)
+- [Fast API Documentation](https://fastapi.tiangolo.com/)
 
 ## Machine Learning
 
