@@ -1,0 +1,31 @@
+## Binary system
+Computer represent data using binary data, 1s and 0s.<br>
+For images each pixel will get 3 values and using this color can be sorted.<br>
+A bit is the smallest piece of information in a computer, a single value storing either 0 or 1.<br>
+A byte is a unit of digital information that consists of 8 of those bits.
+
+Decimal number system uses ..., 1000s, 100s, 10s, 1s but binary system uses ..., 8, 4, 2, 1 ( ..., 2<sup>3</sup>, 2<sup>2</sup>, 2<sup>1</sup>, 2<sup>0</sup>) <br>
+Decimal system: 229 -> 100x2 + 10x2 + 1x9 <br>
+Binary system: 1 0 0 1 -> 1x8 + 0x4 + 0x2 + 1x1 -> 9 
+
+### Limitation of storing numbers
+An integer is any number that can be written without a fractional component.<br>
+If computer uses 4 bits to represent integers, then 7 will be represented like this: 0 1 1 1 -> +/- 4 2 1<br>
+First bit represents it's a positive or negative number. 0 for +ve and 1 for -ve.<br>
+
+**Overflow** is we are using a 4 bits computer and want to represent 8. But it is not possible because 7 is the largest integer it can represent with the 4 bits. In this case computer might report an "overflow error" or display "number is too large".
+
+floating-point representation for non-integers (also integers if needed)<br>
+Once the computer determines the floating point representation for a number, it stores that in bits. Modern computers use a 64-bit system that uses 1 bit for the sign, 11 bits for the exponent, and 52 bits for the number in front.<br>
+160 = 1.25 x 2<sup>7</sup> <br>
+0.50 = 1 x 2<sup>-1</sup> <br>
+0.375 = 1.5 x 2<sup>-2</sup> -> 0011111111011000000000000000000000000000000000000000000000000000
+
+This can't fully represent all numbers. Numbers like 1/3 is an infinitely repeating sequence. 1/10 (which is short in decimal 0.1) end up as infinitely repeating sequences once converted to binary. We often don't notice the lower precision of a number's representation until we use it in calculations. That's when we can experience a **roundoff error** in the results.
+
+
+
+
+
+
+
