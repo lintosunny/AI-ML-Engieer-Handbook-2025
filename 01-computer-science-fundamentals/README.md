@@ -1,3 +1,4 @@
+# Unit 1: Digital Information
 ## Binary system
 Computer represent data using binary data, 1s and 0s.<br>
 For images each pixel will get 3 values and using this color can be sorted.<br>
@@ -8,7 +9,7 @@ Decimal number system uses ..., 1000s, 100s, 10s, 1s but binary system uses ...,
 Decimal system: 229 -> 100x2 + 10x2 + 1x9 <br>
 Binary system: 1 0 0 1 -> 1x8 + 0x4 + 0x2 + 1x1 -> 9 
 
-### Limitation of storing numbers
+## Limitation of storing numbers
 An integer is any number that can be written without a fractional component.<br>
 If computer uses 4 bits to represent integers, then 7 will be represented like this: 0 1 1 1 -> +/- 4 2 1<br>
 First bit represents it's a positive or negative number. 0 for +ve and 1 for -ve.<br>
@@ -22,6 +23,16 @@ Once the computer determines the floating point representation for a number, it 
 0.375 = 1.5 x 2<sup>-2</sup> -> 0011111111011000000000000000000000000000000000000000000000000000
 
 This can't fully represent all numbers. Numbers like 1/3 is an infinitely repeating sequence. 1/10 (which is short in decimal 0.1) end up as infinitely repeating sequences once converted to binary. We often don't notice the lower precision of a number's representation until we use it in calculations. That's when we can experience a **roundoff error** in the results.
+
+## Compression
+compression algorithms to reduce the amount of space needed to represent a file. There are two types of compression: lossless and lossy.
+
+Lossless compression algorithms reduce the size of files without losing any information in the file, which means that we can reconstruct the original data from the compressed file.
+* Lossless text compression -> Compression algorithm
+* Lossless image compression -> Run-Length Encoding (RLE)
+* Lossless bit compression -> Huffman coding algorithm
+
+Lossy compression algorithms reduce the size of files by discarding the less important information in a file, which can significantly reduce file size but also affect file quality.
 
 
 
