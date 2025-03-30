@@ -34,6 +34,20 @@ Lossless compression algorithms reduce the size of files without losing any info
 
 Lossy compression algorithms reduce the size of files by discarding the less important information in a file, which can significantly reduce file size but also affect file quality.
 
+# Unit 2: The Internet
+The Internet is a global network of computing devices communicating with each other in some way, whether they're sending emails, downloading files, or sharing websites. It is an open network and rules are known as **protocols.** To create a global network of computing devices, we need: 
+* Wires & wireless: Physical connections between devices, plus protocols for converting electromagnetic signals into binary data.
+* IP: A protocol that uniquely identify devices using IP addresses and provides a routing strategy to send data to a destination IP address.
+* TCP/UDP: Protocols that can transport packets of data from one device to another and check for errors along the way.
+* TLS: A secure protocol for sending encrypted data so that attackers can't view private information.
+* HTTP & DNS: The protocols powering the World Wide Web, what the browser uses every time you load a webpage.
+
+## Network
+A computer network is any group of interconnected devices capable of sending or receiving data.
+* Local Area Network (LAN): Network covers limited area like house or school.
+* Wide Area Network (WAN): Extend over a large geographic area and is composed of many LAN's.
+* Data Center Network (DCN): used in data centers where data must be exchanged with very little delay.
+
 
 
 
